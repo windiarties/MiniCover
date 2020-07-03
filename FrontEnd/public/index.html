@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Mini Project</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+      <link href="bootstrap/css/jquery-ui.css" rel="stylesheet" media="screen">
+      <link href="bootstrap/css/font-awesome.css" rel="stylesheet">
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="bootstrap/css/icon.css" rel="stylesheet">
+      <link href="bootstrap/css/vertical.css" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet">
+      <link href="bootstrap/css/bootstrap-timepicker.min.css" type="text/css"  />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+      <div id="App"></div>
+      <!-- <h2 class="demoHeaders">Datepicker</h2>
+      <div id="datepicker"></div> -->
+
+      <link href="vendors/datatables/dataTables.bootstrap.css" rel="stylesheet" media="screen">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="vendors/datatables/js/jquery.dataTables.min.js"></script>
+
+      <script src="vendors/datatables/dataTables.bootstrap.js"></script>
+      <script src="bootstrap/js/jquery.js"></script>
+      <script src="vendors/form-helpers/js/bootstrap-formhelpers.min.js"></script>
+      <script src="vendors/select/bootstrap-select.min.js"></script>
+      <script src="vendors/tags/js/bootstrap-tags.min.js"></script>
+      <script src="vendors/mask/jquery.maskedinput.min.js"></script>
+      <script src="vendors/moment/moment.min.js"></script>
+      <script src="vendors/wizard/jquery.bootstrap.wizard.min.js"></script>
+      <script src="bootstrap/js/jquery-ui.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="text/javascript" src="bootstrap/js/bootstrap-timepicker.min.js"></script>
+      <script>
+            $(document).ready(function () {
+                  $('[data-toggle="tooltip"]').tooltip();
+                  window.$('#chart-period').click(function () {
+                        $("#calender").datepicker({
+                              inline: true
+                        });
+                  })
+            })
+            
+            $(function () {
+                  $(".datepicker").datepicker({
+                        format: 'yyyy-mm-dd',
+                        autoclose: true,
+                        todayHighlight: true,
+                  });
+            });
+
+            
+      </script>
+
+      <script>
+
+            window.$('#datatable').DataTable() // manggil table
+            window.$('#timepicker1').timepicker();
+      </script>
+</body>
+
+</html>

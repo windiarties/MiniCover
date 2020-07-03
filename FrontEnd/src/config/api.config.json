@@ -1,0 +1,14 @@
+{
+    "BASE_URL": "http://localhost:3003/api",
+    "ENDPOINTS": {
+        "COVER": "/cover",
+        "OFFICIAL": "/official",
+        "Tambah": "/tambah",
+        "Read": "/read",
+        "Artis": "/artist"
+    },
+    "LS": {
+        "COVER": "B201_USERDATA_KEY",
+        "USERDATA": "B201_USERDATA_KEY"
+    }
+}

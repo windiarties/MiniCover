@@ -1,0 +1,9 @@
+<select class="form-control" name='song_name'
+                            value={this.state.cover.song_name} onChange={(e) => this.handleChange(e, 'song_name')}
+                            >
+                                <option>Song Name</option>
+                                {this.state.coverid.map((row, i) =>
+                                    <option value={row.song_name}>{row.song_name}</option>
+
+                                )}
+                            </select>

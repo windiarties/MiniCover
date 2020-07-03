@@ -1,0 +1,29 @@
+{
+  "name": "backend201",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "node-cron": "^2.0.3",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^2.0.2",
+    "pg": "^7.11.0",
+    "rand-token": "^0.4.0",
+    "request": "^2.88.0",
+    "restify": "^8.3.3",
+    "restify-cors-middleware": "^1.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "tinyreq": "^3.4.1"
+  },
+  "description": ""
+}
