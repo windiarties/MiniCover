@@ -15,7 +15,7 @@
     "md5": "^2.2.1",
     "node-cron": "^2.0.3",
     "node-datetime": "^2.1.2",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.2",
     "pg": "^7.11.0",
     "rand-token": "^0.4.0",
